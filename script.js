@@ -96,3 +96,9 @@ console.log("There are more long-named foods.")
 
 // 10. STRETCH: Find the longest food name and print:
 // "The longest food name in the list is ______ with ___ characters."
+for (let i = 0; i < friendFavorites.length; i++) {
+  if (friendFavorites[i].length >= 12) {
+    let result = friendFavorites[i];
+    console.log("One of the two longest food names in the list is " + result + " with " + result.length + " characters.");
+  }
+}
