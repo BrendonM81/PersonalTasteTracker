@@ -53,6 +53,18 @@ for (let i = 0; i < friendFavorites.length; i++) {
 
 
 // 6. Store the result in an array called foodsWithA. Print out the array.
+let foodsWithA = [];
+
+for (let i = 0; i < friendFavorites.length; i++) {
+  if (friendFavorites[i].includes("a")) {
+    let result = friendFavorites[i];
+    let foodswithA = result
+    // foodsWithA.push(result);
+  }
+}
+
+console.log(foodsWithA);
+
 
 
 
